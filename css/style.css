@@ -1,3 +1,6 @@
+/*------$GENERAL-------*/
+h1, 
+
 .row{
 	padding: 0;
 	margin: 0;
@@ -33,3 +36,20 @@ li{
 #accroche, #bouton{
 	text-align: center;
 }
+
+/*--------$CONCEPT------*/
+
+#concept{
+	text-align: center;
+}
+
+#concept p{
+	text-align: justify;
+}
+
+#concept img{   /* passage de 50px à 80px pour la taille des images*/
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+}
+
