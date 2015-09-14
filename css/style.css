@@ -1,3 +1,12 @@
+.container{
+	width: 100%;
+}
+#bg_img_1{
+	background: url(../img/Coworking2.jpg) no-repeat;
+	height: 900px;
+	background-size: 100%;
+
+}
 #menu{
 	padding-top: 30px;
 	padding-bottom: 30px; 
