@@ -5,6 +5,9 @@
 .container{
 	width: 100%;
 }
+
+/*Premier bandeau*/
+
 #bg_img_1{
 	background: url(../img/Coworking2.jpg) no-repeat;
 	height: 900px;
@@ -12,8 +15,14 @@
 
 }
 #menu{
+	background-color: red;
+	padding: 0;
+}
+
+#nav_bar{
+	background:transparent;
 	padding-top: 30px;
-	padding-bottom: 30px; 
+	padding-bottom: 30px;
 }
 
 li{
