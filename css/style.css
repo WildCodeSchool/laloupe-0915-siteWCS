@@ -1,0 +1,13 @@
+#menu{
+	padding-top: 30px;
+	padding-bottom: 30px; 
+}
+
+li{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+#accroche, #bouton{
+	text-align: center;
+}
