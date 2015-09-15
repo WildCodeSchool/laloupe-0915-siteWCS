@@ -128,6 +128,92 @@ p{
 }
 
 
+/*------------------------------------*\
+    			$Temoignages
+\*------------------------------------*/
+
+.tem1 {overflow:hidden;
+	-webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    border-radius:200px;
+    width:200px;
+    height:200px;
+	margin: 10px 35px 35px 0;
+	float: left;
+	box-shadow: 8px 8px 12px #aaa;
+	
+}
+
+
+/*.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}*/
+
+.vcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.vcenter2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.vcenter3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+
+.tem2 {overflow:hidden;
+	-webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    border-radius:200px;
+    width:200px;
+    height:200px;
+	margin: 0 25px 35px 15px;
+ 	box-shadow: 8px 8px 12px #aaa;
+	float: right;
+}
+
+.tem3 {overflow:hidden;
+	-webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    border-radius:200px;
+    width:200px;
+    height:200px;
+	float: left;
+	margin: 0 35px 35px 0;
+	 box-shadow: 8px 8px 12px #aaa;
+}		
+
+.Para{	font-family: cursive;
+		width: 750px;
+		color: #A4A440;
+}
+
+.paragraph{
+	font-family: cursive;
+	width: 750px;
+	color: #A4A440;
+}
+
+.parag{
+	width: 750px;
+	font-family: cursive;
+	color: #A4A440;
+}
+
 
 /*-------------------*\
 	   $EVENEMENT
