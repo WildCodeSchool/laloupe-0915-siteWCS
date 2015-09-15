@@ -12,10 +12,15 @@
 	width: 100%;
 }
 
-h1, h2, h3{text-transform: uppercase;}
+h1, h2, h3{text-transform: uppercase; font-family: 'Source Sans Pro', sans-serif;}
 
+p{
+	font-family: 'Source Code Pro', ;
+}
 
-
+body{
+	margin: 0;
+}
 
 
 /*------------------------------------*\
@@ -50,10 +55,12 @@ li{
 
 #concept{
 	text-align: center;
+	padding: 50px 70px 70px 70px;
 }
 
 #concept p{
 	text-align: justify;
+
 }
 
 #concept img{   /* passage de 50px à 80px pour la taille des images*/
@@ -66,14 +73,24 @@ li{
 
 
 
+
 /*------------------------------------*\
     			$VIDEO
 \*------------------------------------*/
 #video{
-	background: #cacaca;
+	background: #424242;
 }
-p{
-	text-align: left;
+
+#video p{
+	text-align: center;
+	color: #EEEEEE;
+	font-weight: 400;
+
+}
+
+#video h2{
+	text-align: center;
+	color: #EEEEEE;
 }
 .video-container {
 	position:relative;
