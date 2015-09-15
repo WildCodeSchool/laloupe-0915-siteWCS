@@ -12,7 +12,10 @@
 }
 
 
-h1, h2, h3{text-transform: uppercase; font-family: 'Source Sans Pro', sans-serif;}
+h1, h2, h3{
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
 p{
 	font-family: 'Source Code Pro', ;
@@ -46,7 +49,16 @@ body{
 }
 
 .nav_bar_menu li{
-	background: rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0.6);
+}
+
+.nav_bar_menu li:hover{
+	background: rgba(0,0,0,0);
+}
+
+.nav_bar_menu a{
+	color: white;
+	text-transform: none;
 }
 
 .nav_bar_bouton{
@@ -105,9 +117,6 @@ body{
 
 
 
-
-
-
 /*------------------------------------*\
     			$VIDEO
 \*------------------------------------*/
@@ -121,13 +130,13 @@ body{
 	text-align: center;
 	color: #EEEEEE;
 	font-weight: 400;
-
 }
 
 #video h2{
 	text-align: center;
 	color: #EEEEEE;
 }
+
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
@@ -153,7 +162,9 @@ body{
     			$Temoignages
 \*------------------------------------*/
 
-.tem1 {overflow:hidden;
+
+.tem1{
+	overflow:hidden;
 	-webkit-border-radius:200px;
     -moz-border-radius:200px;
     border-radius:200px;
@@ -162,41 +173,31 @@ body{
 	margin: 10px 35px 35px 0;
 	float: left;
 	box-shadow: 8px 8px 12px #aaa;
-	
 }
 
-
-/*.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}*/
-
-.vcenter {
+.vcenter{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 
-.vcenter2 {
+.vcenter2{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 
-
-.vcenter3 {
+.vcenter3{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 
-
-
-.tem2 {overflow:hidden;
+.tem2{
+	overflow:hidden;
 	-webkit-border-radius:200px;
     -moz-border-radius:200px;
     border-radius:200px;
@@ -207,7 +208,8 @@ body{
 	float: right;
 }
 
-.tem3 {overflow:hidden;
+.tem3{
+	overflow:hidden;
 	-webkit-border-radius:200px;
     -moz-border-radius:200px;
     border-radius:200px;
@@ -215,12 +217,13 @@ body{
     height:200px;
 	float: left;
 	margin: 0 35px 35px 0;
-	 box-shadow: 8px 8px 12px #aaa;
+	box-shadow: 8px 8px 12px #aaa;
 }		
 
-.Para{	font-family: cursive;
-		width: 750px;
-		color: #A4A440;
+.Para{
+	font-family: cursive;
+	width: 750px;
+	color: #A4A440;
 }
 
 .paragraph{
@@ -239,12 +242,10 @@ body{
 /*-------------------*\
 	   $EVENEMENT
 \*-------------------*/
+
 #newsletter{
 	margin-top: 20px;
-	
 }
-
-
 
 
 
