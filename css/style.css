@@ -1,5 +1,4 @@
 
-
 /*------------------------------------*\
     $Tables des matieres
 \*------------------------------------*/
@@ -12,6 +11,7 @@
 	width: 100%;
 }
 
+
 h1, h2, h3{text-transform: uppercase; font-family: 'Source Sans Pro', sans-serif;}
 
 p{
@@ -22,36 +22,70 @@ body{
 	margin: 0;
 }
 
-
 /*------------------------------------*\
     			$HEADER
 \*------------------------------------*/
-#bg_img_1{
-	background: url(../img/Coworking2.jpg) no-repeat;
-	height: 900px;
-	background-size: 100%;
 
-}
-#menu{
-	background-color: red;
-	padding-top: 20px;
-	padding-bottom: 20px;
+.bandeau_1{
+	background-image: url(../img/coworking2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	position: relative;
 }
 
-#nav_bar{
-	background: transparent;
-}
-
-li{
-	display: inline-block;
+.nav_bar_contain{
+	height: 77px;
+	padding-left: 20px;
 	padding-right: 20px;
 }
 
-#accroche, #bouton{
+.nav_bar_menu{
+	margin-top: 12px;
+}
+
+.nav_bar_menu li{
+	background: rgba(0,0,0,0.1);
+}
+
+.nav_bar_bouton{
+	margin-top: 20px;
+	background: rgba(0,0,0,0.5);
+}
+
+.accroche{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 230px;
 	text-align: center;
 }
 
-/*--------$CONCEPT------*/
+.accroche h1{
+	font-size: 2.2em;
+	color: #cbdb57;
+}
+
+.bouton{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 130px;
+	text-align: center;
+}
+
+.bouton span{
+	border: 5px solid #FEFEFE;
+	color: white;
+	padding: 7px 10px;
+}
+
+
+/*-------------------*\
+	   $CONCEPT
+\*-------------------*/
+
 
 #concept{
 	text-align: center;
@@ -77,6 +111,8 @@ li{
 /*------------------------------------*\
     			$VIDEO
 \*------------------------------------*/
+
+
 #video{
 	background: #424242;
 }
@@ -111,3 +147,22 @@ li{
 #vid{
 	padding: 0;
 }
+
+
+
+/*-------------------*\
+	   $EVENEMENT
+\*-------------------*/
+#newsletter{
+	margin-top: 20px;
+	
+}
+
+
+
+
+
+/*-------------------*\
+	   $NEWSLETTER
+\*-------------------*/
+
