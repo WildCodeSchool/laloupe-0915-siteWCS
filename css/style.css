@@ -1,16 +1,26 @@
-/*------$GENERAL-------*/
-h1, h2, h3{text-transform: uppercase;}
 
+
+/*------------------------------------*\
+    $Tables des matieres
+\*------------------------------------*/
 .row{
 	padding: 0;
 	margin: 0;
 }
+
 .container{
 	width: 100%;
 }
 
-/*Premier bandeau*/
+h1, h2, h3{text-transform: uppercase;}
 
+
+
+
+
+/*------------------------------------*\
+    			$HEADER
+\*------------------------------------*/
 #bg_img_1{
 	background: url(../img/Coworking2.jpg) no-repeat;
 	height: 900px;
@@ -52,3 +62,35 @@ li{
 	margin: 10px;
 }
 
+
+
+
+
+/*------------------------------------*\
+    			$VIDEO
+\*------------------------------------*/
+#video{
+	background: #cacaca;
+}
+p{
+	text-align: left;
+}
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#vid{
+	padding: 0;
+}
