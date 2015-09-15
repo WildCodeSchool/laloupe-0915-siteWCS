@@ -23,6 +23,7 @@ h1, h2, h3{text-transform: uppercase;}
 	background-size: cover;
 	background-position: center;
 	height: 600px;
+	position: relative;
 }
 
 .nav_bar_contain{
