@@ -19,6 +19,9 @@ h1, h2, h3{text-transform: uppercase;}
 .container{
 	width: 100%;
 }
+
+/*Premier bandeau*/
+
 #bg_img_1{
 	background: url(../img/Coworking2.jpg) no-repeat;
 	height: 900px;
@@ -26,8 +29,13 @@ h1, h2, h3{text-transform: uppercase;}
 
 }
 #menu{
-	padding-top: 30px;
-	padding-bottom: 30px; 
+	background-color: red;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#nav_bar{
+	background: transparent;
 }
 
 li{
@@ -39,10 +47,14 @@ li{
 	text-align: center;
 }
 
+<<<<<<< HEAD
 
 /*-------------------*\
 	   $CONCEPT
 \*-------------------*/
+=======
+/*--------$CONCEPT------*/
+>>>>>>> develop
 
 #concept{
 	text-align: center;
@@ -58,6 +70,7 @@ li{
 	margin: 10px;
 }
 
+<<<<<<< HEAD
 
 
 /*-------------------*\
@@ -75,3 +88,5 @@ li{
 /*-------------------*\
 	   $NEWSLETTER
 \*-------------------*/
+=======
+>>>>>>> develop
