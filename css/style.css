@@ -19,13 +19,12 @@ h1,
 }
 #menu{
 	background-color: red;
-	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #nav_bar{
-	background:transparent;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	background: transparent;
 }
 
 li{
