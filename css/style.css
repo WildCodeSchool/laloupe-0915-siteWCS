@@ -283,20 +283,39 @@ p{
 
 #newsletter{
 	background-color: #C0CA33;
-	margin-top: 20px;
+	padding: 30px;
+	color: white;
+	font-weight: 600;
+	padding: 30px 50px;
 }
 
+
+.social img{margin: 30px 15px;}
+
+
 #newsletter form{
+	/*text-align: center;
+	*/margin: 30px;
+	margin-left: 0;
+}
+
+#newsletter form input{
+	vertical-align: middle;
+	border: none;
+	height: 50px;
+}
+#newsletter input[type="email"]{
+	width: 340px;
+	color: black;
+	padding: 5px;
+	font-weight: normal;
 	text-align: center;
 }
 
-#newsletter input[type="email"]{
-	height: 40px;
-	width: 250px;
-}
-#newsletter input[type="submit"]{
-	height: 40px;
-	width: 100px;
+#newsletter input[type="image"]{
+	width: 130px;
 	position: relative;
-	left: -6px;
+	left: -3px;
+	background-color: #757575;
+	padding: 15px 55px;
 }
