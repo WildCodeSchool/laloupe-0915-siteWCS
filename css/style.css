@@ -179,10 +179,10 @@ p{
 
 .video-container {
 	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
+	padding-bottom:1px;
+	padding-top:1px;
 	height:0;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
