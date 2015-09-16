@@ -1,7 +1,32 @@
 
 /*------------------------------------*\
     $Tables des matieres
+
+GENERAL..............CSS général du site;
+HEADER---------------Style bloc: NAV + IMG PREZ;
+CONCEPT..............Style bloc: concept;
+VIDEO----------------Style bloc: Vidéo + Texte;
+TEMOIGNAGES..........Style bloc: Témoignages des élèves;
+EVENEMENT------------Style bloc: "suivez nous" / Slider des évènements;
+NEWSLETTER...........Style bloc: "Suivez-nous" / Inscription newsletter;
+FOOTER...............Style bloc: footer;
+
+	Faites une recherche (CTRL+F) de $ puis entrer pour naviguer entre les 
+	différentes sections du document.
+
 \*------------------------------------*/
+
+
+
+
+/*------------------------------------*\
+    			$  GENERAL
+\*------------------------------------*/
+
+body{
+	margin: 0;
+}
+
 .row{
 	padding: 0;
 	margin: 0;
@@ -11,19 +36,20 @@
 	width: 100%;
 }
 
-
-h1, h2, h3{
+h1, h2, h3, h4, h5, h6{
 	text-transform: uppercase;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
 }
 
+
+
+
+/*  CSS pour partie "VIDEO" à mettre dans la bonne section
 p{
 	font-family: 'Source Code Pro', ;
-}
+}*/
 
-body{
-	margin: 0;
-}
 
 /*------------------------------------*\
     			$HEADER
