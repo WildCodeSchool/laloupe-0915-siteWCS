@@ -41,29 +41,33 @@ body{
 .nav_bar_contain{
 	height: 77px;
 	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 40px;
+	background: rgb(255,255,255);
 }
 
 .nav_bar_menu{
 	margin-top: 12px;
 }
 
-.nav_bar_menu li{
-	background: rgba(0,0,0,0.6);
+.nav > li > a:hover{
+  text-decoration: none;
+  background-color: none;
 }
-
-.nav_bar_menu li:hover{
-	background: rgba(0,0,0,0);
+.nav > li > a:focus{
+	background-color: none;
 }
 
 .nav_bar_menu a{
-	color: white;
+	color: black;
 	text-transform: none;
 }
 
-.nav_bar_bouton{
+.navbar-toggle{
 	margin-top: 20px;
 	background: rgba(0,0,0,0.5);
+}
+.navbar-toggle .icon-bar {
+	background-color: #cbdb57;
 }
 
 .accroche{
@@ -75,7 +79,6 @@ body{
 }
 
 .accroche h1{
-	font-size: 2.2em;
 	color: #cbdb57;
 }
 
@@ -83,7 +86,7 @@ body{
 	width: 100%;
 	height: 50px;
 	position: absolute;
-	bottom: 130px;
+	bottom: 160px;
 	text-align: center;
 }
 
