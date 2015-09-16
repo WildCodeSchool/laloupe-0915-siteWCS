@@ -274,9 +274,6 @@ p{
 	   $EVENEMENT
 \*-------------------*/
 
-#newsletter{
-	margin-top: 20px;
-}
 
 
 
@@ -284,3 +281,22 @@ p{
 	   $NEWSLETTER
 \*-------------------*/
 
+#newsletter{
+	background-color: #C0CA33;
+	margin-top: 20px;
+}
+
+#newsletter form{
+	text-align: center;
+}
+
+#newsletter input[type="email"]{
+	height: 40px;
+	width: 250px;
+}
+#newsletter input[type="submit"]{
+	height: 40px;
+	width: 100px;
+	position: relative;
+	left: -6px;
+}
