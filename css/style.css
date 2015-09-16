@@ -52,17 +52,8 @@ p{
 
 
 /*------------------------------------*\
-    			$HEADER
+    			Navbar
 \*------------------------------------*/
-
-.bandeau_1{
-	background-image: url(../img/coworking2.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 600px;
-	position: relative;
-}
 
 .nav_bar_contain{
 	height: 77px;
@@ -92,8 +83,23 @@ p{
 	margin-top: 20px;
 	background: rgba(0,0,0,0.5);
 }
+
 .navbar-toggle .icon-bar {
 	background-color: #cbdb57;
+}
+
+
+/*------------------------------------*\
+    			$HEADER
+\*------------------------------------*/
+
+.header{
+	background-image: url(../img/coworking2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	position: relative;
 }
 
 .accroche{
@@ -286,4 +292,42 @@ p{
 /*-------------------*\
 	   $NEWSLETTER
 \*-------------------*/
+
+/*------------------------------------*\
+    			Footer
+\*------------------------------------*/
+
+.footer{
+	padding: 50px 50px;
+	background-color: #212121;
+	line-height: 18px;
+	font-size: 11px;
+}
+
+
+.footer li{
+	color: #BDBDBD;
+}
+	
+ul .first_field{
+	font-weight: bold;
+	color: #EEEEEE;
+	font-size: 12px;
+}
+
+ul .copyright{
+	color: #616161;
+}
+
+.footer div{
+	padding: 0 0;
+}
+
+.footer ul{
+	list-style: none;
+	padding-left: 35px;
+}
+
+
+
 
