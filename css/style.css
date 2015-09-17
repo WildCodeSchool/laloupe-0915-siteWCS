@@ -2,17 +2,21 @@
 /*------------------------------------*\
     $Tables des matieres
 
-GENERAL..............CSS général du site;
+GENERAL..............CSS général du site ;
+NAVBAR...............Style du menu de navigation ;
 HEADER---------------Style bloc: NAV + IMG PREZ;
-CONCEPT..............Style bloc: concept;
-VIDEO----------------Style bloc: Vidéo + Texte;
-TEMOIGNAGES..........Style bloc: Témoignages des élèves;
-EVENEMENT------------Style bloc: "suivez nous" / Slider des évènements;
-NEWSLETTER...........Style bloc: "Suivez-nous" / Inscription newsletter;
-FOOTER...............Style bloc: footer;
+CONCEPT..............Style bloc: concept ;
+VIDEO----------------Style bloc: Vidéo + Texte ;
+TEMOIGNAGES..........Style bloc: Témoignages des élèves ;
+EVENEMENT------------Style bloc: "suivez nous" / Slider des évènements ;
+NEWSLETTER...........Style bloc: "Suivez-nous" / Inscription newsletter ;
+FOOTER...............Style bloc: footer ;
 
 	Faites une recherche (CTRL+F) de $ puis entrer pour naviguer entre les 
 	différentes sections du document.
+
+*** /!\ RESPONSIVE------>> En bas de chaque section
+
 
 \*------------------------------------*/
 
@@ -45,9 +49,16 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+/*---- RESPONSIVE GENERAL------*/
+/*
+@media (max-width: 768px) {   /* < 768px est la définition d'un smartphone pour Bootstrap 
+														= Restons sur lâ même convention... (?)*/  /*
+	
+} */
+
 
 /*------------------------------------*\
-    			Navbar
+    			$ Navbar
 \*------------------------------------*/
 
 .nav_bar_contain{
@@ -59,6 +70,10 @@ h1, h2, h3, h4, h5, h6{
 
 .nav_bar_menu{
 	margin-top: 12px;
+}
+
+.nav_bar_menu{
+	background-color: rgba(255,255,255,0.8);
 }
 
 .nav > li > a:hover{
@@ -84,8 +99,16 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+/*-------RESPONSIVE for NAVBAR---------*/
+
+/*
+@media (max-width: 768px) {   /* < 768px est la définition d'un smartphone pour Bootstrap 
+														= Restons sur lâ même convention... (?)*/  /*
+	
+} */
+
 /*------------------------------------*\
-    			$HEADER
+    			$ HEADER
 \*------------------------------------*/
 
 .header{
@@ -128,8 +151,16 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+/*---------RESPONSIVE for HEADER----------*/
+
+/*
+@media (max-width: 768px) {   /* < 768px est la définition d'un smartphone pour Bootstrap 
+														= Restons sur lâ même convention... (?)*/  /*
+	
+} */
+
 /*-------------------*\
-	   $CONCEPT
+	   $ CONCEPT
 \*-------------------*/
 
 
@@ -148,7 +179,8 @@ h1, h2, h3, h4, h5, h6{
 	margin: 20px;
 }
 
-#concept img{   /* passage de 50px à 80px pour la taille des images*/
+#concept img{   /* passage de 50px à 80px pour la taille des images
+						--> Demander icônes "concept" en 80/80px *.png au graphiste ou *.svg  */
 	height: 80px;
 	width: 80px;
 	margin: 10px;
@@ -156,15 +188,27 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+/*----RESPONSIVE for CONCEPT -----*/
+
+@media (max-width: 768px){    /* < 768px est la définition d'un smartphone pour Bootstrap 
+														= Restons sur lâ même convention... (?)*/
+	#concept{padding: 10px;}
+	#concept img{margin-bottom: 0px;}
+	#concept p{margin: 15px 10px 40px;}
+}
+
+
+
+
 /*------------------------------------*\
-    			$VIDEO
+    			$ VIDEO
 \*------------------------------------*/
 
 #section_video{
 	background: #424242;
 }
 
-#section_video p, #section_video h2{
+#section_video p, #section_video h1{
 	text-align: left;
 	color: #EEEEEE;
 }
@@ -182,21 +226,22 @@ h1, h2, h3, h4, h5, h6{
  	width: 100%;
  }
 
- @media (max-width: 900px) {
-	.video img {
-    min-width: 400px;
-    text-align: center;
-  }
-  .texte {
-	padding: auto;
-  }
+
+/*------- RESPONSIVE for VIDEO --------*/
+
+@media (max-width: 768px) {/* < 768px est la définition d'un smartphone pour Bootstrap 
+														= Restons sur lâ même convention... (?)*/
+	.video img {text-align: center;}
+	.texte {padding: auto;}
+	#section_video h1, #section_video p{
+		text-align: center;
+		padding: 10px 8px;
+	}
 }
 
- @media (max-width: 900px) {
-	
-}
+
 /*------------------------------------*\
-    			$Temoignages
+    			$ TEMOIGNAGES
 \*------------------------------------*/
 
 #temoignages{
@@ -273,8 +318,16 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+/*---- RESPONSIVE for TEMOIGNGAGES------*/
+/*
+@media (max-width: 768px) {   /* < 768px est la définition d'un smartphone pour Bootstrap 
+														= Restons sur lâ même convention... (?)*/  /*
+	
+} */
+
+
 /*-------------------*\
-	   $EVENEMENT
+	   $ EVENEMENT
 \*-------------------*/
 
 
@@ -283,8 +336,19 @@ h1, h2, h3, h4, h5, h6{
     padding-right: 0px;
 }
 
+
+
+/*-------- RESPONSIVE for EVENEMENT & SLIDER------*/
+
+/*
+@media (max-width: 768px) {   /* < 768px est la définition d'un smartphone pour Bootstrap 
+														= Restons sur lâ même convention... (?)*/  /*
+	
+} */
+
+
 /*-------------------*\
-	   $NEWSLETTER
+	   $ NEWSLETTER
 \*-------------------*/
 
 #newsletter{
@@ -325,8 +389,19 @@ h1, h2, h3, h4, h5, h6{
 	background-color: #757575;
 	padding: 15px 55px;
 }
+
+
+/*-------RESPONSIVE for NEWSLETTER -------*/
+
+/*
+@media (max-width: 768px) {   /* < 768px est la définition d'un smartphone pour Bootstrap 
+														= Restons sur lâ même convention... (?)*/  /*
+	
+} */
+
+
 /*------------------------------------*\
-    			Footer
+    			$ FOOTER
 \*------------------------------------*/
 
 .footer{
@@ -363,3 +438,12 @@ ul .copyright{
 .p_concept p{
 	margin: 0;
 }
+
+/*----- RESPONSIVE for FOOTER---------*/
+
+/*
+@media (max-width: 768px) {   /* < 768px est la définition d'un smartphone pour Bootstrap 
+														= Restons sur lâ même convention... (?)*/  /*
+	
+} */
+
