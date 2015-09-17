@@ -34,6 +34,8 @@ body{
 
 .container{
 	width: 100%;
+	padding-right: 0px;
+    padding-left: 0px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -105,6 +107,10 @@ h1, h2, h3, h4, h5, h6{
 
 .accroche h1{
 	color: #cbdb57;
+}
+
+.accroche a:hover{
+	text-decoration: none;
 }
 
 .bouton{
@@ -192,7 +198,9 @@ h1, h2, h3, h4, h5, h6{
     			$Temoignages
 \*------------------------------------*/
 
-
+#temoignages{
+	margin: 50px;
+}
 
 .tem1{
 	overflow: hidden;
@@ -237,25 +245,30 @@ h1, h2, h3, h4, h5, h6{
 }		
 
 .Para{
-	font-family: cursive;
-	width: 750px;
-	color: #A4A440;
+	color: #cbdb57;
 	text-align: left;
-	font-size:15px;
+	font-size: 18px;
 	width: 486px;
-	line-height: 35px;
+	line-height: 33px;
+	font-style: italic;
+	margin-bottom: 0;
 }
 
 .Parap{
-	font-family: cursive;
-	width: 750px;
-	color: #A4A440;
+	color: #cbdb57;
 	text-align: right;
-	font-size:15px;
+	font-size:18px;
 	width: 486px;
-	line-height: 35px;
+	line-height: 33px;
 	float: right;
-	margin-bottom: 35px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.Para span, .Parap span{
+	color: black;
+	font-style: normal;
+	font-size: 14px;
 }
 
 
@@ -264,7 +277,10 @@ h1, h2, h3, h4, h5, h6{
 \*-------------------*/
 
 
-
+#slider{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 /*-------------------*\
 	   $NEWSLETTER
