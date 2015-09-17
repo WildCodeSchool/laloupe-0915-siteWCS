@@ -187,12 +187,13 @@ h1, h2, h3, h4, h5, h6{
     min-width: 400px;
     text-align: center;
   }
+  .texte {
+	padding: auto;
+  }
 }
 
  @media (max-width: 900px) {
-	.texte {
-	padding: auto;
-  }
+	
 }
 /*------------------------------------*\
     			$Temoignages
