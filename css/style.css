@@ -129,11 +129,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .accroche h1{
-	color: #cbdb57;
+/*	color: #cbdb57*/;
+	color: #C0CA33;
 }
 
-.accroche a:hover{
+.bouton a:hover{
 	text-decoration: none;
+	/*color: green;*/
 }
 
 .bouton{
@@ -148,6 +150,10 @@ h1, h2, h3, h4, h5, h6{
 	border: 5px solid #FEFEFE;
 	color: white;
 	padding: 7px 10px;
+}
+
+.bouton span:hover{
+	background-color: #C0CA33;
 }
 
 
@@ -177,6 +183,7 @@ h1, h2, h3, h4, h5, h6{
 	text-align: justify;
 	word-wrap: break-word;
 	margin: 20px;
+	font-size: 15px;
 }
 
 #concept img{   /* passage de 50px à 80px pour la taille des images
@@ -205,12 +212,16 @@ h1, h2, h3, h4, h5, h6{
 \*------------------------------------*/
 
 #section_video{
+	vertical-align: middle;
 	background: #424242;
 }
+
+/*.texte-video{margin: 40px 0px;} */
 
 #section_video p, #section_video h1{
 	text-align: left;
 	color: #EEEEEE;
+/*	vertical-align: middle;  */
 }
 
 #section_video p{
@@ -218,13 +229,9 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 15px;
 }
 
-.video{
-	padding: 0;
-}
+.video{padding: 0;} 
 
-.video img{
- 	width: 100%;
- }
+.video img{width: 100%;}
 
 
 /*------- RESPONSIVE for VIDEO --------*/
@@ -232,7 +239,7 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 768px) {/* < 768px est la définition d'un smartphone pour Bootstrap 
 														= Restons sur lâ même convention... (?)*/
 	.video img {text-align: center;}
-	.texte {padding: auto;}
+
 	#section_video h1, #section_video p{
 		text-align: center;
 		padding: 10px 8px;
