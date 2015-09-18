@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 	height: 600px;
 	position: relative;
 }
@@ -181,6 +182,7 @@ h1, h2, h3, h4, h5, h6{
 	padding: 50px 70px 70px 70px;
 	color: #616161;
 	background-color: #EEE;
+	background: transparent;
 }
 
 #concept h1{ margin: 30px 0 30px 0;}
@@ -320,7 +322,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 150px;
 	height: 150px;
 	margin: 0px auto 35px;
-	box-shadow: 8px 8px 12px #AAA;
+	/*box-shadow: 8px 8px 12px #AAA;*/
 	display: block;
 }
 
@@ -339,7 +341,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 150px;
 	height: 150px;
 	margin: 0px auto 35px;
-	box-shadow: 8px 8px 12px #AAA;
+	/*box-shadow: 8px 8px 12px #AAA;*/
 	display: block;
 	float: right;
 }
@@ -350,7 +352,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 150px;
 	height: 150px;
 	margin: 0px auto 35px;
-	box-shadow: 8px 8px 12px #AAA;
+	/*box-shadow: 8px 8px 12px #AAA;*/
 	display: block;
 }		
 
@@ -505,6 +507,9 @@ h1, h2, h3, h4, h5, h6{
 	}
 	#newsletter{
 		padding: 0px 0px;
+	}
+	#newsletter .marge_responsive{
+		margin-left: 0;
 	}
 }
 
