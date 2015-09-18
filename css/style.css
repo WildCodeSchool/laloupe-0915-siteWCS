@@ -48,11 +48,6 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: 800;
 }
 
-/*img{
-	max-width: 100%;
-	height: auto;
-}*/
-
 /*---- RESPONSIVE GENERAL------*/
 /*
 @media (max-width: 768px) {   /* < 768px est la définition d'un smartphone pour Bootstrap 
@@ -243,6 +238,11 @@ h1, h2, h3, h4, h5, h6{
 	color: #EEEEEE;
 	font-family: 'Source Code Pro';
 	font-size: 15px;
+}
+
+.video img{
+	max-width: 100%;
+	height: auto;
 }
 
 /*
