@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: 800;
 }
 
+img{
+	max-width: 100%;
+	height: auto;
+}
 
 /*---- RESPONSIVE GENERAL------*/
 /*
@@ -212,16 +216,50 @@ h1, h2, h3, h4, h5, h6{
 \*------------------------------------*/
 
 #section_video{
-	vertical-align: middle;
-	background: #424242;
+	font-size: 0;
+	color: #EEEEEE;
+		background: #424242;
 }
 
-/*.texte-video{margin: 40px 0px;} */
+.video{
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.video h1{
+	padding: 20px 30px 10px 30px;
+}
+
+.video p{
+	padding: 30px;
+	color: #EEEEEE;
+	font-family: 'Source Code Pro';
+	font-size: 15px;
+}
+
+/*
+#section_video{
+	background: #424242;
+	position: relative;
+}
+
+/*.text-video{
+	display: inline-block;
+	vertical-align: middle; */
+/*	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-20%, 6%);
+}*/
+/*
+.text-video{margin: 15px 10px;}
+
+.text-video h1{margin-bottom: 20px;}
 
 #section_video p, #section_video h1{
 	text-align: left;
 	color: #EEEEEE;
-/*	vertical-align: middle;  */
 }
 
 #section_video p{
@@ -229,12 +267,14 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 15px;
 }
 
-.video{padding: 0;} 
+.video{padding: 0;}
 
 .video img{width: 100%;}
+*/
 
 
-/*------- RESPONSIVE for VIDEO --------*/
+
+/*........RESPONSIVE for VIDEO.........*/
 
 @media (max-width: 768px) {/* < 768px est la définition d'un smartphone pour Bootstrap 
 														= Restons sur lâ même convention... (?)*/
@@ -243,6 +283,12 @@ h1, h2, h3, h4, h5, h6{
 	#section_video h1, #section_video p{
 		text-align: center;
 		padding: 10px 8px;
+		margin-top: 0;
+	}
+
+	.video{
+		display: block;
+		width: 100%
 	}
 }
 
