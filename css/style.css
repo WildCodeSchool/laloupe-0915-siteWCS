@@ -48,10 +48,10 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: 800;
 }
 
-img{
+/*img{
 	max-width: 100%;
 	height: auto;
-}
+}*/
 
 /*---- RESPONSIVE GENERAL------*/
 /*
@@ -304,7 +304,8 @@ img{
     			$ TEMOIGNAGES
 \*------------------------------------*/
 
-.row{margin: 10px;
+.row_temoignage{
+	margin: 10px;
 	padding: 10px 10px;
 }
 
@@ -505,7 +506,7 @@ img{
 	#newsletter{
 		padding: 0px 0px;
 	}
-
+}
 
 /*-------RESPONSIVE for NEWSLETTER -------*/
 
