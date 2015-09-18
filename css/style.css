@@ -367,14 +367,10 @@ h1, h2, h3, h4, h5, h6{
 
 #newsletter{
 	background-color: #C0CA33;
-	padding: 30px;
 	color: white;
 	font-weight: 600;
-	padding: 30px 50px;
+	padding: 30px 0px;
 }
-
-
-.social img{margin: 30px 10px;}
 
 
 #newsletter form{
@@ -389,7 +385,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 50px;
 }
 #newsletter input[type="email"]{
-	width: 320px;
+	width: 280px;
 	color: black;
 	padding: 5px;
 	font-weight: normal;
@@ -402,6 +398,43 @@ h1, h2, h3, h4, h5, h6{
 	left: -3px;
 	background-color: #757575;
 	padding: 15px 55px;
+}
+
+#newsletter .row1{
+	margin-top: 17px;
+}
+
+#newsletter .row2{
+	margin-top: 30px;
+}
+
+#newsletter .row3{
+	margin-top: 42px;
+}
+
+#newsletter .row4 form{
+	margin-top: 0px;
+}
+
+.pictogramme{
+	margin-left: 6.333333%;
+}
+
+.first_pictogramme{
+
+}
+
+
+@media (max-width: 1040px) {
+	#newsletter input[type="image"]{
+		left: 0px;
+	}
+	.pictogramme, .first_pictogramme{
+		margin-top: 6px;
+	}
+	#newsletter input[type="email"]{
+	width: 250px;
+	}
 }
 
 
