@@ -437,6 +437,25 @@ h1, h2, h3, h4, h5, h6{
 	}
 }
 
+@media (max-width: 1040px) {
+	#newsletter .row1{
+		margin-top: 0px;
+	}
+	#newsletter .row2{
+		margin-top: 10px;
+	}
+
+	#newsletter .row3{
+		margin-top: 15px;
+	}
+
+	#newsletter .row4 form{
+		margin-top: 0px;
+	}
+	#newsletter{
+		padding: 0px 0px;
+	}
+
 
 /*-------RESPONSIVE for NEWSLETTER -------*/
 
