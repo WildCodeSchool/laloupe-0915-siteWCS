@@ -172,6 +172,8 @@ h1, h2, h3, h4, h5, h6{
 	
 } */
 
+
+
 /*-------------------*\
 	   $ CONCEPT
 \*-------------------*/
@@ -194,12 +196,12 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 15px;
 }
 
-#concept img{   /* passage de 50px à 80px pour la taille des images
+/*#concept img{   /* passage de 50px à 80px pour la taille des images
 						--> Demander icônes "concept" en 80/80px *.png au graphiste ou *.svg  */
-	height: 80px;
+	/*height: 80px;
 	width: 80px;
 	margin: 10px;
-}
+}*/
 
 
 
@@ -211,7 +213,6 @@ h1, h2, h3, h4, h5, h6{
 	#concept img{margin-bottom: 0px;}
 	#concept p{margin: 15px 10px 40px;}
 }
-
 
 
 
@@ -403,6 +404,10 @@ h1, h2, h3, h4, h5, h6{
     padding-right: 0px;
 }
 
+.carousel-inner > .item > img{
+       width:710px;
+       height:360px;
+     }
 
 
 /*-------- RESPONSIVE for EVENEMENT & SLIDER------*/
@@ -422,7 +427,7 @@ h1, h2, h3, h4, h5, h6{
 	background-color: #C0CA33;
 	color: white;
 	font-weight: 600;
-	padding: 30px 0px;
+	padding: 31.5px 0px;
 }
 
 
@@ -522,6 +527,7 @@ h1, h2, h3, h4, h5, h6{
 } */
 
 
+
 /*------------------------------------*\
     			$ FOOTER
 \*------------------------------------*/
@@ -534,7 +540,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-.footer li{
+.footer li a{
 	color: #BDBDBD;
 }
 	
@@ -554,7 +560,8 @@ ul .copyright{
 
 .footer ul{
 	list-style: none;
-	padding-left: 35px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .p_concept p{
@@ -568,4 +575,5 @@ ul .copyright{
 														= Restons sur lâ même convention... (?)*/  /*
 	
 } */
+
 
